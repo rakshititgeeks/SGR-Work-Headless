@@ -1,0 +1,37 @@
+.annoucementBar {
+    background-color: rgb(87, 87, 49);
+    width: 100%;
+    transition: transform 0.2s ease-out;
+    position: relative;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.annoucementBar p {
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.annoucementBar a {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+.headerCustomRow {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerleft, .headerRigth {
+    width: 40%;
+}
+.headerCenter {
+    width: 10%;
+}
